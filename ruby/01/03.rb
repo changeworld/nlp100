@@ -5,4 +5,4 @@
 "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."という文を単語に分解し，各単語の（アルファベットの）文字数を先頭から出現順に並べたリストを作成せよ．
 =end
 
-p "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.".split(' ').map(&:size)
+p "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.".gsub!(',', '').gsub!('.', '').split(' ').map(&:size)
