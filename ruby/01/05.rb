@@ -11,6 +11,6 @@ module Enumerable
   end
 end
 
-words = 'I am an NLPer'
-p words.split.ngram(2)
-p words.gsub(' ', '').chars.ngram(2)
+sentence = 'I am an NLPer'
+p sentence.split.ngram(2)
+p sentence.gsub(' ', '').chars.ngram(2)
