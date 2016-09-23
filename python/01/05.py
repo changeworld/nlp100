@@ -4,10 +4,11 @@
 sentence = 'I am an NLPer'
 
 def ngram(input, n):
-    l = len(input)
-    for i in xrange(l - 1):
-        print (input[i:i+n], end=' ')
-    print ('')
+    l = len(input) - n + 1
+    list = []
+    for i in range(0, l):
+        list.append(input[i:i+n])
+    return list
 
-ngram(sentence.split(), 2)
-ngram(sentence.replace(' ', ''), 2)
+print (ngram(sentence.split(), 2))
+print (ngram(sentence.replace(' ', ''), 2))
