@@ -6,10 +6,7 @@
 =end
 
 n = ARGV.shift.to_i
-arr = []
-$<.each_line do |line|
-  arr << line
-end
+arr = $<.to_a
 n.times do |i|
   puts arr[arr.length - n + i]
 end
