@@ -5,6 +5,6 @@
 記事から参照されているメディアファイルをすべて抜き出せ．
 =end
 
-File.read("uk.txt").scan(/\[\[File:([^|\]]+)(?:\|[^\]]*)*\]\]/) do |file, _|
+File.read('uk.txt').scan(/\[\[File:([^|\]]+)(?:\|[^\]]*)*\]\]/) do |file, _|
   puts file
 end
