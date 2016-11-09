@@ -9,5 +9,5 @@ with open("uk.txt") as f:
     while lines:
         line = re.search("^(=+)\s*(.*?)\s*(=+)$", lines)
         if line is not None:
-            print "name={0}, level={1}".format(line.group(2), len(line.group(1)) - 1)
+            print("name={0}, level={1}".format(line.group(2), len(line.group(1)) - 1))
         lines = f.readline()

@@ -9,5 +9,5 @@ with open("uk.txt") as f:
     while lines:
         line = re.search("File:(.*?)\|", lines)
         if line is not None:
-            print "{0}".format(line.group(1))
+            print("{0}".format(line.group(1)))
         lines = f.readline()

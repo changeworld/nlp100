@@ -13,4 +13,4 @@ with open("uk.txt") as f:
             dict[line.group(1)] = re.sub(r"'{2,5}", r"", line.group(2))
         lines = f.readline()
     for k, v in dict.items():
-        print "{0}, {1}".format(k, v)
+        print("{0}, {1}".format(k, v))
