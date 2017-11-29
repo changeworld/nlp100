@@ -1,0 +1,6 @@
+inspecode:
+  experimental:
+    runtime:
+      python: 3.6.3
+  pyflakes: default
+  misspell: auto-fix
