@@ -10,5 +10,5 @@ def ngram(input, n):
         list.append(input[i:i+n])
     return list
 
-print (ngram(sentence.split(), 2))
-print (ngram(sentence.replace(' ', ''), 2))
+print(ngram(sentence.split(), 2))
+print(ngram(sentence.replace(' ', ''), 2))

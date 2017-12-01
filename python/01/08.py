@@ -11,5 +11,5 @@ def cipher(str):
     return out
 
 sentence = 'See you tomorrow, Saki.'
-print cipher(sentence)
-print cipher(cipher(sentence))
+print(cipher(sentence))
+print(cipher(cipher(sentence)))

@@ -5,4 +5,4 @@
 def run_template(x, y, z):
     return unicode(x) + u'時の' + unicode(y) + u'は' + unicode(z)
 
-print (run_template(12, u'気温', 22.4))
+print(run_template(12, u'気温', 22.4))

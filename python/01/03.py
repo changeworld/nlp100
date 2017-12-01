@@ -8,4 +8,4 @@ sentence = "Now I need a drink, alcoholic of course, after the heavy lectures in
 for word in sentence:
     list.append(len(word))
 
-print list
+print(list)

@@ -11,10 +11,10 @@ with open(sys.argv[2]) as f:
 
 n = int(math.ceil(len(lines) / N))
 i = 0
-for i in xrange(N):
+for i in range(N):
     file = "x%s" % (i + 1)
     out = open(file, "w")
-    for j in xrange(n):
+    for j in range(n):
         try:
             out.write(lines[i + j])
         except:
