@@ -16,4 +16,4 @@ def typoglycemia(str):
         typoglycemia_list.append(word)
     return " ".join(typoglycemia_list)
 
-print typoglycemia("I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind .")
+print(typoglycemia("I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."))

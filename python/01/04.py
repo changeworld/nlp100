@@ -11,4 +11,4 @@ for i in range(len(sentence)):
     clen = 1 if i in single else 2
     dict[sentence[i][:clen]] = i + 1
 
-print dict
+print(dict)
